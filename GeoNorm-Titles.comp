@@ -1,0 +1,963 @@
+Composition {
+	CurrentTime = 76,
+	RenderRange = { 0, 150 },
+	GlobalRange = { 0, 150 },
+	CurrentID = 103,
+	HiQ = true,
+	Proxy = true,
+	PlaybackUpdateMode = 0,
+	Version = "Fusion 9.0 build 13",
+	SavedOutputs = 1,
+	HeldTools = 0,
+	DisabledTools = 0,
+	LockedTools = 0,
+	AudioOffset = 0,
+	Resumable = true,
+	OutputClips = {
+		"C:\\Users\\steve\\Desktop\\geonorm\\render\\geonorm-intro.mov"
+	},
+	Tools = {
+		Loader5 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-G.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 748, 398 } },
+		},
+		Loader7 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-N.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 748, 716 } },
+		},
+		BACKGROUND = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\1920x1080.jpg",
+					FormatID = "JpegFormat",
+					StartFrame = 1080,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			NameSet = true,
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1089, 273 } },
+		},
+		Loader3 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-R.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 742, 924 } },
+		},
+		Loader6 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-M.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 746, 1030 } },
+		},
+		Loader4 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-E.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 748, 502 } },
+		},
+		Loader1 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-O.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = -1,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 747, 604 } },
+		},
+		Loader2 = Loader {
+			Clips = {
+				Clip {
+					ID = "Clip1",
+					Filename = "C:\\Users\\steve\\Desktop\\geonorm\\GEONORM-O2.tiff",
+					FormatID = "TiffFormat",
+					StartFrame = 2,
+					LengthSetManually = true,
+					TrimIn = 0,
+					TrimOut = 0,
+					ExtendFirst = 0,
+					ExtendLast = 0,
+					Loop = 0,
+					AspectMode = 0,
+					Depth = 0,
+					TimeCode = 0,
+					GlobalStart = 0,
+					GlobalEnd = 0
+				}
+			},
+			Inputs = {
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 746, 818 } },
+		},
+		Path2 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path2Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = -0.579029733959311, Y = 0.134909596662031, RX = 0.00286906624934793, RY = 0.182197496522949 },
+							{ LockY = true, X = -0.382629107981221, Y = 0.251738525730181, LX = -0.04434011476265, LY = 0.19749652294854, RX = 0.126238914971309, RY = 0.154381084840056 },
+							{ LockY = true, X = -0.264475743348983, Y = -0.019471488178025, LX = 0.000521648408972383, LY = 0.130737134909597 }
+						}
+					},
+				},
+			},
+		},
+		Path3 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path3Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = -4.31413383021866, Y = 0.49550147450066, RX = 0.17676997676332, RY = 0.52084311306956 },
+							{ X = -2.88943030098093, Y = 0.543479136933743, LX = -0.329583141010657, LY = 0.406900307521612, RX = 0.562778363212662, RY = 0.47406016067508, LZ = -1.06491251056843e-015, RZ = -5.71487290898927e-016 },
+							{ X = -2.04991871919611, Y = 0.385392345854454, Z = -3.27727784106919e-016, LX = 0.070970751241776, LY = -0.00106332821382396, RX = 0.681036814460109, RY = 0.483024658418278, LZ = -1.57586724207128e-016, RZ = 1.87080159667868e-015 },
+							{ LockY = true, X = -1.13991341042363, Y = -0.0467454221227043, LX = -0.000888022886059275, LY = 0.215241126313114 }
+						}
+					},
+				},
+			},
+		},
+		Merge1 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "G",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Loader4",
+					Source = "Output",
+				},
+				Center = Input {
+					SourceOp = "Path2",
+					Source = "Position",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1088, 505 } },
+		},
+		Transform7 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				SampleSpread = Input { Value = 2.282, },
+				Center = Input {
+					SourceOp = "Path7",
+					Source = "Position",
+				},
+				Aspect = Input {
+					SourceOp = "Transform7Aspect",
+					Source = "Value",
+				},
+				Angle = Input {
+					SourceOp = "Transform7Angle",
+					Source = "Value",
+				},
+				Input = Input {
+					SourceOp = "Loader6",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 928, 1033 } },
+		},
+		Transform1 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Quality = Input { Value = 5, },
+				ShutterAngle = Input { Value = 249.6, },
+				CenterBias = Input { Value = 0.337, },
+				SampleSpread = Input { Value = 3.122, },
+				Center = Input {
+					SourceOp = "Path1",
+					Source = "Position",
+				},
+				Input = Input {
+					SourceOp = "Loader5",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 934, 398 } },
+		},
+		Transform7Aspect = BezierSpline {
+			SplineColor = { Red = 210, Green = 105, Blue = 30 },
+			NameSet = true,
+			KeyFrames = {
+				[101] = { 1.171, RH = { 104.333333333333, 1.171 }, Flags = { Linear = true } },
+				[111] = { 1.171, LH = { 107.666666666667, 1.171 }, RH = { 112, 1.08296666666667 }, Flags = { Linear = true } },
+				[114] = { 0.9069, LH = { 113, 0.994933333333333 }, RH = { 114.666666666667, 0.9606 }, Flags = { Linear = true } },
+				[116] = { 1.068, LH = { 115.333333333333, 1.0143 }, RH = { 116.333333333333, 1.0115 }, Flags = { Linear = true } },
+				[117] = { 0.8985, LH = { 116.666666666667, 0.955 }, RH = { 117.666666666667, 0.932333333333333 }, Flags = { Linear = true } },
+				[119] = { 1, LH = { 118.333333333333, 0.966166666666667 }, Flags = { Linear = true } }
+			}
+		},
+		Merge2 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge1",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform3",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1089, 608 } },
+		},
+		Path6Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[91] = { 0, RH = { 94, 0.308015082887307 }, Flags = { Linear = true, LockedY = true } },
+				[100] = { 0.924045248661921, LH = { 97, 0.616030165774614 }, RH = { 100.333333333333, 0.932937516064589 }, Flags = { Linear = true, LockedY = true } },
+				[101] = { 0.950722050869926, LH = { 100.666666666667, 0.941829783467258 }, RH = { 101.666666666667, 0.963205797982878 }, Flags = { Linear = true, LockedY = true } },
+				[103] = { 0.988173292208782, LH = { 102.333333333333, 0.97568954509583 }, RH = { 103.333333333333, 0.992115528139188 }, Flags = { Linear = true, LockedY = true } },
+				[104] = { 1, LH = { 103.666666666667, 0.996057764069594 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Transform2 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Center = Input { Value = { -1.66721606233143, 0.459403074841183 }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 931, 501 } },
+		},
+		Transform6Angle = BezierSpline {
+			SplineColor = { Red = 14, Green = 221, Blue = 144 },
+			NameSet = true,
+			KeyFrames = {
+				[91] = { 11.1, RH = { 92, 13.7 }, Flags = { Linear = true } },
+				[94] = { 18.9, LH = { 93, 16.3 }, RH = { 94.6666666666667, 4.7 }, Flags = { Linear = true } },
+				[96] = { -23.7, LH = { 95.3333333333333, -9.5 }, RH = { 97.3333333333333, -17.9 }, Flags = { Linear = true } },
+				[100] = { -6.3, LH = { 98.6666666666667, -12.1 }, RH = { 100.333333333333, -5.23333333333333 }, Flags = { Linear = true } },
+				[101] = { -3.1, LH = { 100.666666666667, -4.16666666666667 }, RH = { 101.666666666667, 0.0666666666666664 }, Flags = { Linear = true } },
+				[103] = { 6.4, LH = { 102.333333333333, 3.23333333333333 }, RH = { 103.333333333333, 4.26666666666667 }, Flags = { Linear = true } },
+				[104] = { 0, LH = { 103.666666666667, 2.13333333333333 }, Flags = { Linear = true } }
+			}
+		},
+		Path1Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[30] = { 0, RH = { 32.6666666666667, 0.183543206022513 }, Flags = { Linear = true, LockedY = true } },
+				[38] = { 0.55062961806754, LH = { 35.3333333333333, 0.367086412045027 }, RH = { 40.3333333333333, 0.70041974537836 }, Flags = { Linear = true, LockedY = true } },
+				[45] = { 1, LH = { 42.6666666666667, 0.85020987268918 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Path7Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[101] = { 0, RH = { 104.333333333333, 0.27329095003152 }, Flags = { Linear = true, LockedY = true } },
+				[111] = { 0.81987285009456, LH = { 107.666666666667, 0.54658190006304 }, RH = { 112, 0.839356152472968 }, Flags = { Linear = true, LockedY = true } },
+				[114] = { 0.878322757229783, LH = { 113, 0.858839454851375 }, RH = { 114.666666666667, 0.9014993749003 }, Flags = { Linear = true, LockedY = true } },
+				[116] = { 0.947852610241335, LH = { 115.333333333333, 0.924675992570818 }, RH = { 116.333333333333, 0.963303688688347 }, Flags = { Linear = true, LockedY = true } },
+				[117] = { 0.99420584558237, LH = { 116.666666666667, 0.978754767135358 }, RH = { 117.666666666667, 0.996137230388247 }, Flags = { Linear = true, LockedY = true } },
+				[119] = { 1, LH = { 118.333333333333, 0.998068615194123 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Path7 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path7Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = 3.53521126760564, Y = -0.118421736044184, RX = -0.442879499217527, RY = 0 },
+							{ Linear = true, LockY = true, X = 2.20657276995306, Y = -0.118421736044184, LX = 0.442879499217527, LY = 0, RX = -0.0312989045383407, RY = 0.00415514863312919 },
+							{ Linear = true, LockY = true, X = 2.11267605633803, Y = -0.105956290144796, LX = 0.0312989045383407, LY = -0.00415514863312919, RX = 0.0375586854460096, RY = 0 },
+							{ Linear = true, LockY = true, X = 2.22535211267606, Y = -0.105956290144796, LX = -0.0375586854460096, LY = 0, RX = -0.025039123630673, RY = 0 },
+							{ Linear = true, LockY = true, X = 2.15023474178404, Y = -0.105956290144796, LX = 0.025039123630673, LY = 0, RX = -0.00312989045383401, RY = 0 },
+							{ Linear = true, LockY = true, X = 2.14084507042254, Y = -0.105956290144796, LX = 0.00312989045383401, LY = 0 }
+						}
+					},
+				},
+			},
+		},
+		Path5Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[75] = { 0, RH = { 80, 0.312499993731322 }, Flags = { Linear = true, LockedY = true } },
+				[90] = { 0.937499981193965, LH = { 85, 0.624999987462643 }, RH = { 90.3333333333333, 0.958333320795977 }, Flags = { Linear = true, LockedY = true } },
+				[91] = { 1, LH = { 90.6666666666667, 0.979166660397988 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Path6 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path6Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = 4.43550190029063, Y = 0.36461429255709, RX = -0.778994949735111, RY = 0.43109667189744 },
+							{ LockY = true, X = 1.83024072647095, Y = -0.109072647988796, LX = 0.349752830352146, LY = 0.85596061721434, RX = 0.0019872320341802, RY = -0.0280472532736224 },
+							{ Linear = true, LockY = true, X = 1.83620242257349, Y = -0.193214407809663, LX = -0.0019872320341802, LY = 0.0280472532736224, RX = 0, RY = 0.0394739120147276 },
+							{ Linear = true, LockY = true, X = 1.83620242257349, Y = -0.0747926717654805, LX = 0, LY = -0.0394739120147276, RX = 0, RY = -0.0124654458993876 },
+							{ Linear = true, LockY = true, X = 1.83620242257349, Y = -0.112189009463643, LX = 0, LY = 0.0124654458993876 }
+						}
+					},
+				},
+			},
+		},
+		G = Merge {
+			NameSet = true,
+			Inputs = {
+				Background = Input {
+					SourceOp = "BACKGROUND",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform1",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1089, 400 } },
+		},
+		Saver1 = Saver {
+			Inputs = {
+				["AVIFormat.Compression"] = Input { Value = 3, },
+				ProcessWhenBlendIs00 = Input { Value = 0, },
+				Clip = Input {
+					Value = Clip {
+						Filename = "C:\\Users\\steve\\Desktop\\geonorm\\render\\geonorm-intro.mov",
+						FormatID = "QuickTimeMovies",
+						Length = 0,
+						Multiframe = true,
+						Saving = true,
+						TrimIn = 0,
+						ExtendFirst = 0,
+						ExtendLast = 0,
+						Loop = 1,
+						AspectMode = 0,
+						Depth = 0,
+						TimeCode = 0,
+						GlobalStart = -2000000000,
+						GlobalEnd = 0
+					},
+				},
+				OutputFormat = Input { Value = FuID { "QuickTimeMovies" }, },
+				["Gamut.SLogVersion"] = Input { Value = FuID { "SLog2" }, },
+				Input = Input {
+					SourceOp = "Merge6",
+					Source = "Output",
+				},
+				["QuickTimeMovies.Compression"] = Input { Value = FuID { "H.264_avc1" }, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1240.54, 1029.76 } },
+		},
+		Path8 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path8Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = 0, Y = 0 }
+						}
+					},
+				},
+			},
+		},
+		Path8Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[110] = { 0, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Transform3 = Transform {
+			CtrlWZoom = false,
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Center = Input {
+					SourceOp = "Path3",
+					Source = "Position",
+				},
+				Input = Input {
+					SourceOp = "Loader1",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 929, 606 } },
+		},
+		Merge6 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge5",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform7",
+					Source = "Output",
+				},
+				Center = Input {
+					SourceOp = "Path8",
+					Source = "Position",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1093, 1020 } },
+		},
+		Transform7Angle = BezierSpline {
+			SplineColor = { Red = 14, Green = 221, Blue = 144 },
+			NameSet = true,
+			KeyFrames = {
+				[101] = { -17.4, RH = { 104.333333333333, -17.4 }, Flags = { Linear = true } },
+				[111] = { -17.4, LH = { 107.666666666667, -17.4 }, RH = { 112, -6.86666666666667 }, Flags = { Linear = true } },
+				[114] = { 14.2, LH = { 113, 3.66666666666666 }, RH = { 114.666666666667, 3.13333333333333 }, Flags = { Linear = true } },
+				[116] = { -19, LH = { 115.333333333333, -7.93333333333333 }, RH = { 116.333333333333, -6.9 }, Flags = { Linear = true } },
+				[117] = { 17.3, LH = { 116.666666666667, 5.2 }, RH = { 117.666666666667, 11.5333333333333 }, Flags = { Linear = true } },
+				[119] = { 0, LH = { 118.333333333333, 5.76666666666667 }, Flags = { Linear = true } }
+			}
+		},
+		Path4 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path4Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = 0.0560577394716556, Y = 1.68906791936703, RX = 0.00304511177376939, RY = -0.56521563490094 },
+							{ Linear = true, LockY = true, X = 0.0651930747929638, Y = -0.0065789853357886, LX = -0.00304511177376939, LY = 0.56521563490094, RX = -0.00231843737321021, RY = 0.0314521667368809 },
+							{ Linear = true, LockY = true, X = 0.0582377626733331, Y = 0.087777514874854, LX = 0.00231843737321021, LY = -0.0314521667368809, RX = -0.0019724019443738, RY = -0.0386082560494923 },
+							{ Linear = true, LockY = true, X = 0.0523205568402118, Y = -0.0280472532736228, LX = 0.0019724019443738, LY = 0.0386082560494923 }
+						}
+					},
+				},
+			},
+		},
+		Transform6Aspect = BezierSpline {
+			SplineColor = { Red = 210, Green = 105, Blue = 30 },
+			NameSet = true,
+			KeyFrames = {
+				[91] = { 0.67, RH = { 92, 0.946666666666667 }, Flags = { Linear = true } },
+				[94] = { 1.5, LH = { 93, 1.22333333333333 }, RH = { 94.6666666666667, 1.43333333333333 }, Flags = { Linear = true } },
+				[96] = { 1.3, LH = { 95.3333333333333, 1.36666666666667 }, RH = { 97.6666666666667, 1.06743333333333 }, Flags = { Linear = true } },
+				[101] = { 0.6023, LH = { 99.3333333333333, 0.834866666666667 }, RH = { 101.666666666667, 0.801533333333333 }, Flags = { Linear = true } },
+				[103] = { 1.2, LH = { 102.333333333333, 1.00076666666667 }, RH = { 103.333333333333, 1.13333333333333 }, Flags = { Linear = true } },
+				[104] = { 1, LH = { 103.666666666667, 1.06666666666667 }, Flags = { Linear = true } }
+			}
+		},
+		Path5 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path5Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = 4.268033, Y = -0.0903744827706, RX = -1.03855466666667, RY = 0.0029215888827 },
+							{ Linear = true, LockY = true, X = 1.152369, Y = -0.0816097161225, LX = 1.03855466666667, LY = -0.0029215888827, RX = -0.069237, RY = 0.000194772592166677 },
+							{ Linear = true, LockY = true, X = 0.944658, Y = -0.081025398346, LX = 0.069237, LY = -0.000194772592166677 }
+						}
+					},
+				},
+			},
+		},
+		Merge4 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge3",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform5",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1086, 821 } },
+		},
+		Path1 = PolyPath {
+			DrawMode = "InsertAndModify",
+			Inputs = {
+				Displacement = Input {
+					SourceOp = "Path1Displacement",
+					Source = "Value",
+				},
+				PolyLine = Input {
+					Value = Polyline {
+						Points = {
+							{ Linear = true, LockY = true, X = -3.59097675483797, Y = 0.0218145303239284, RX = 0.0563889206967181, RY = 0.341206955257129 },
+							{ LockY = true, X = -2.77598381617619, Y = 0.577981174868276, LX = -0.478963035026428, LY = 0.0113114537700858, RX = 0.426033130756976, RY = -0.0100804335413938 },
+							{ LockY = true, X = -2.26726210924081, Y = -0.00934908442454063, LX = 0.00905886993142202, LY = 0.264336705544238 }
+						}
+					},
+				},
+			},
+		},
+		Transform6 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Center = Input {
+					SourceOp = "Path6",
+					Source = "Position",
+				},
+				Aspect = Input {
+					SourceOp = "Transform6Aspect",
+					Source = "Value",
+				},
+				Angle = Input {
+					SourceOp = "Transform6Angle",
+					Source = "Value",
+				},
+				Input = Input {
+					SourceOp = "Loader3",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 925, 925 } },
+		},
+		Transform5 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Center = Input {
+					SourceOp = "Path5",
+					Source = "Position",
+				},
+				Angle = Input {
+					SourceOp = "Transform5Angle",
+					Source = "Value",
+				},
+				Input = Input {
+					SourceOp = "Loader2",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 927, 822 } },
+		},
+		Merge3 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge2",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform4",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1085, 711 } },
+		},
+		Path4Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[73] = { 0, RH = { 74.6666666666667, 0.296509336286873 }, Flags = { Linear = true, LockedY = true } },
+				[78] = { 0.889528008860618, LH = { 76.3333333333333, 0.593018672573745 }, RH = { 78.3333333333333, 0.906072186139072 }, Flags = { Linear = true, LockedY = true } },
+				[79] = { 0.939160540695979, LH = { 78.6666666666667, 0.922616363417525 }, RH = { 80, 0.959440360463986 }, Flags = { Linear = true, LockedY = true } },
+				[82] = { 1, LH = { 81, 0.979720180231993 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Merge5 = Merge {
+			Inputs = {
+				Background = Input {
+					SourceOp = "Merge4",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "Transform6",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 1090, 925 } },
+		},
+		Transform4 = Transform {
+			Inputs = {
+				MotionBlur = Input { Value = 1, },
+				Center = Input {
+					SourceOp = "Path4",
+					Source = "Position",
+				},
+				Input = Input {
+					SourceOp = "Loader7",
+					Source = "Output",
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 932, 717 } },
+		},
+		Path3Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[61] = { 0, RH = { 65.3333333333333, 0.333333333333333 }, Flags = { Linear = true, LockedY = true } },
+				[74] = { 1, LH = { 69.6666666666667, 0.666666666666667 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Path2Displacement = BezierSpline {
+			SplineColor = { Red = 255, Green = 0, Blue = 255 },
+			NameSet = true,
+			KeyFrames = {
+				[36] = { 0, RH = { 40.6666666666667, 0.164005228593159 }, Flags = { Linear = true, LockedY = true } },
+				[50] = { 0.492015685779476, LH = { 45.3333333333333, 0.328010457186317 }, RH = { 53.3333333333333, 0.661343790519651 }, Flags = { Linear = true, LockedY = true } },
+				[60] = { 1, LH = { 56.6666666666667, 0.830671895259825 }, Flags = { Linear = true, LockedY = true } }
+			}
+		},
+		Transform5Angle = BezierSpline {
+			SplineColor = { Red = 14, Green = 221, Blue = 144 },
+			NameSet = true,
+			KeyFrames = {
+				[75] = { 0, RH = { 80, 120 }, Flags = { Linear = true } },
+				[90] = { 360, LH = { 85, 240 }, RH = { 90.3333333333333, 120.333333333333 }, Flags = { Linear = true } },
+				[91] = { -359, LH = { 90.6666666666667, -119.333333333333 }, RH = { 91.6666666666667, -349 }, Flags = { Linear = true } },
+				[93] = { -329, LH = { 92.3333333333333, -339 }, RH = { 93.6666666666667, -342.166666666667 }, Flags = { Linear = true } },
+				[95] = { -368.5, LH = { 94.3333333333333, -355.333333333333 }, Flags = { Linear = true } }
+			}
+		}
+	},
+	Views = {
+		{
+			FrameTypeID = "ChildFrame",
+			Mode = 3,
+			LayoutPreset = 0,
+			Left = 0,
+			Top = 27,
+			Width = 1920,
+			Height = 906,
+			Views = ordered() {
+				Main = MultiView {
+					Active = "Flow",
+					ViewList = ordered() {
+						Flow = "FlowView",
+						Console = "ConsoleView",
+						Timeline = "TimelineView",
+						Spline = "SplineEditorView",
+						Info = "InfoView",
+						Chat = "ChatView"
+					},
+					Flow = FlowView {
+						Flags = {
+							AutoHideNavigator = true,
+							ForceAll = true,
+							ForceSource = true,
+							ForceMask = true,
+							ForceActive = true,
+							AutoSnap = true,
+							RemoveRouters = true
+						},
+						NavigatorSize = { 200, 140 },
+						Direction = "Horizontal",
+						PipeStyle = "Direct",
+						Scale = 0.5,
+						Offset = { 407.92, -187.661 }
+					},
+					Timeline = TimelineView {
+						TreeControlState = {
+						},
+						DisplayMode = "All Tools",
+						ShowCurrentTimeTools = false,
+						Filter = "Show All",
+						ShowSelectedTools = false,
+						ShowAnimatedToolsOnly = false,
+						ShowEditBoxes = false,
+						KeyFrameView = {
+							Position = { Left = 150, Bottom = 1159 },
+							ScaleX = 0.321637426900585,
+							OffsetX = -7.39766081871345,
+							OffsetY = 0,
+							AutoScaling = "scroll",
+							AutoSnapTo = "frame",
+							AutoSnapToGuidelines = false,
+							GuidelinesGrabEnabled = true,
+							GuidelinesSnapTo = "frame"
+						},
+						Spreadsheet = { LeftPos = 150, Visible = false }
+					},
+					Spline = SplineEditorView {
+						LeftPos = 256,
+						ScaleX = 0.2,
+						ScaleY = 0.00338983050847458,
+						OffsetX = 111.2,
+						OffsetY = 0,
+						AutoScaling = "scroll",
+						AutoSnapTo = "frame",
+						AutoSnapToGuidelines = false,
+						GuidelinesSnapTo = "frame",
+						ShowKeyMarkers = false,
+						IndependentHandles = false,
+						ShowNonSplineModifiers = false,
+						GuidelinesGrabEnabled = true,
+						ShowOneToolOnly = false,
+						ShowSelectedTools = false,
+						ShowAllInputs = false,
+						Filter = "Show All"
+					},
+				},
+				Controls = MultiView {
+					Active = "Tools",
+					ViewList = ordered() {
+						Tools = "ControlView",
+						Modifiers = "ModifierView"
+					},
+				},
+				Left = "PreviewContainer",
+				Right = "PreviewContainer",
+				Transport = "TransportView",
+				Time = "TimeView"
+			},
+			Layout = {
+				Columns = 2,
+				RatioX = 1,
+				RatioY = 1,
+				{
+					Rows = 3,
+					RatioX = 0.876923076923077,
+					RatioY = 0.0101317122593718,
+					{
+						Columns = 2,
+						RatioX = 1,
+						RatioY = 0.379065040650407,
+						{ ID = "Left", RatioX = 0.5, RatioY = 0.00938337801608579, Pop = true },
+						{ ID = "Right", RatioX = 0.5, Pop = true },
+						Pop = true
+					},
+					{ ID = "Main", RatioY = 0.591463414634146, Pop = true },
+					{ ID = "Time", SnapY = 56, Flat = true }
+				},
+				{
+					Rows = 2,
+					PixelX = 470,
+					{ ID = "Controls", RatioX = 1, RatioY = 1 },
+					{ ID = "Transport", FixedY = -2 }
+				}
+			}
+		}
+	},
+	Prefs = {
+		Comp = {
+			Views = {
+				Right = {
+					Viewer = {
+						ScaleMode = 1,
+					},
+				},
+				Left = {
+					Viewer = {
+						ScaleMode = 1,
+					},
+				},
+				View1 = {
+				},
+			},
+			FrameFormat = {
+				GuideRatio = 1.77777777777778,
+			},
+			Unsorted = {
+				GlobalEnd = 150,
+				RenderSettings = {
+					Configs = {
+						Preview = {
+							StepRender = false,
+							PriorityClasses = "local",
+							CustomAspect = true,
+							StepSize = 5,
+							SizeType = 1,
+							CustomHeight = 160,
+							ShowSlaves = false,
+							CustomWidth = 200,
+							MotionBlur = true,
+							UpdateMode = "Some",
+							UseNetwork = false,
+							Quality = false
+						},
+						Final = {
+							StepRender = false,
+							PriorityClasses = "local",
+							CustomAspect = true,
+							StepSize = 5,
+							SizeType = 1,
+							CustomHeight = 160,
+							ShowSlaves = false,
+							CustomWidth = 200,
+							MotionBlur = true,
+							UpdateMode = "Some",
+							UseNetwork = false,
+							Quality = true
+						}
+					},
+					PreviewConfig = "Preview",
+					CurrentConfig = "Final"
+				}
+			},
+			AVI = {
+				Saver = {
+					Handler = 1448433993,
+				},
+				Preview = {
+					DataCheck = true,
+					Key = 15,
+					Quality = 75,
+					DataRate = 300,
+					KeyCheck = true,
+					Handler = 1668707181
+				}
+			},
+			Paths = {
+			},
+			QuickTime = {
+				KeyRate = 5,
+			},
+			Import = {
+				OMF = {
+					FlowFormat = 0
+				}
+			}
+		}
+	}
+}
+
+ 
